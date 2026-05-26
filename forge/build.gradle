@@ -48,6 +48,13 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 dependencies {
     compileOnly project(":common")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
+
+//    modImplementation("curse.maven:moonlight-forge:${project.moonlight_version}")
+//    //modImplementation("net.mehvahdjukaar:supplementaries-forge:${project.supplementaries_version}")
+//    modImplementation ("curse.maven:supplementaries-412082:7113231")
+
+    modImplementation libs.supplementaries.forge
+    modRuntimeOnly libs.moonlight.forge
 }
 
 jar {

@@ -1,0 +1,17 @@
+[versions]
+# https://modrinth.com/mod/supplementaries/versions
+supplementaries-fabric = "UTyMA2SU"
+supplementaries-forge = "sfePFkny"
+
+# https://modrinth.com/mod/moonlight/versions
+moonlight-fabric = "1sc8VeuV"
+moonlight-forge = "GSDEbxNt"
+
+
+[libraries]
+
+supplementaries-fabric = { module = "maven.modrinth:supplementaries", version.ref = "supplementaries-fabric" }
+supplementaries-forge = { module = "maven.modrinth:supplementaries", version.ref = "supplementaries-forge" }
+
+moonlight-fabric = { module = "maven.modrinth:moonlight", version.ref = "moonlight-fabric" }
+moonlight-forge = { module = "maven.modrinth:moonlight", version.ref = "moonlight-forge" }

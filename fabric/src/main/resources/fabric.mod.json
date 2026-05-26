@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.supermctea.flintslab.ExampleMod"
+            "com.supermctea.flintslab.FlintSlabMod"
         ]
     },
     "mixins": [

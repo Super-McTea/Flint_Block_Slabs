@@ -45,6 +45,9 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 // Declare capabilities on the outgoing configurations.
