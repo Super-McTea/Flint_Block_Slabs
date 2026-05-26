@@ -1,5 +1,7 @@
-package com.example.examplemod;
+package com.supermctea.flintslab;
 
+import com.supermctea.flintslab.CommonClass;
+import com.supermctea.flintslab.Constants;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(Constants.MOD_ID)

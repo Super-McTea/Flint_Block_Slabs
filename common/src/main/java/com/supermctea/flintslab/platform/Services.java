@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.supermctea.flintslab.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.supermctea.flintslab.Constants;
+import com.supermctea.flintslab.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
