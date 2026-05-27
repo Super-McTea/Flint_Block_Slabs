@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "supplementaries:flint_block"
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "flint_block"
+    }
+  ],
+  "result": "flintslab:flint_block_slab",
+  "count": 2
+}

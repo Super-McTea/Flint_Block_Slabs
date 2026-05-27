@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "supplementaries:flint_block"
+    }
+  },
+  "result": {
+    "item": "flintslab:flint_block_slab",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "flint_block"
+    }
+  ]
+}

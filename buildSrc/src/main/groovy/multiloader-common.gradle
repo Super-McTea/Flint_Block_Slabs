@@ -101,10 +101,12 @@ processResources {
             'mod_id'                       : mod_id,
             'license'                      : license,
             'description'                  : project.description,
-            "forge_version": forge_version,
-            "forge_loader_version_range": forge_loader_version_range,
+            "forge_version"                : forge_version,
+            "forge_loader_version_range"   : forge_loader_version_range,
             'credits'                      : credits,
-            'java_version'                 : java_version
+            'java_version'                 : java_version,
+            'moonlight_version'            : moonlight_version,
+            'supplementaries_version'      : supplementaries_version
     ]
 
     var jsonExpandProps = expandProps.collectEntries {
